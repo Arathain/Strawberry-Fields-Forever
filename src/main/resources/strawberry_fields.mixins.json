@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "arathain.strawberry_fields.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BeeEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

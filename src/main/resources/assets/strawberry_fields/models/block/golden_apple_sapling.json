@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "strawberry_fields:block/golden_apple_sapling"
+  }
+}

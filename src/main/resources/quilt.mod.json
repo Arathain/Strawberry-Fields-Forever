@@ -1,25 +1,27 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "arathain",
+		"id": "strawberry_fields",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Strawberry Fields Forever",
+			"description": "brery",
 			"contributors": {
-				"Me!": "Owner"
+				"Arathain": "Owner",
+				"Cybercat5555": "Artist"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "",
+				"issues": "",
+				"sources": "https://github.com/Arathain/Strawberry-Fields-Forever"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/strawberry_fields/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "arathain.strawberry_fields.StrawberryFields",
+			"client_init": "arathain.strawberry_fields.StrawberryFieldsClient"
 		},
 		"depends": [
 			{
@@ -28,13 +30,17 @@
 			},
 			{
 				"id": "quilted_fabric_api",
-				"versions": ">=1.0.0-"
+				"versions": ">=2.0.0-"
 			},
 			{
 				"id": "minecraft",
-				"versions": ">=1.18.2"
+				"versions": ">=1.19"
+			},
+			{
+				"id": "java",
+				"versions": ">=17"
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "strawberry_fields.mixins.json"
 }

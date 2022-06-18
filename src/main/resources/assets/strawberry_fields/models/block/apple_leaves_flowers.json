@@ -1,0 +1,184 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/leaves",
+	"textures": {
+		"all": "minecraft:block/oak_leaves",
+		"1": "strawberry_fields:block/apple_details"
+	},
+	"elements": [
+        {   "from": [ 0, 0, 0 ],
+          "to": [ 16, 16, 16 ],
+          "faces": {
+             "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "tintindex": 0, "cullface": "down" },
+              "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "tintindex": 0, "cullface": "up" },
+              "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "tintindex": 0, "cullface": "north" },
+              "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "tintindex": 0, "cullface": "south" },
+              "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "tintindex": 0, "cullface": "west" },
+              "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#all", "tintindex": 0, "cullface": "east" }
+          }
+        },
+		{
+			"from": [1, -0.25, 2],
+			"to": [5, -0.25, 6],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [3, -0.25, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"down": {"uv": [4, 0, 0, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [1, -0.25, 2],
+			"to": [5, -0.25, 6],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [3, -0.25, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"down": {"uv": [4, 0, 0, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, -0.25, 5],
+			"to": [11, -0.25, 9],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [9, -0.25, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"up": {"uv": [4, 0, 0, 4], "texture": "#1"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, -0.25, 5],
+			"to": [11, -0.25, 9],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [9, -0.25, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"down": {"uv": [4, 0, 0, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [10, -0.25, 0],
+			"to": [14, -0.25, 4],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [12, -0.25, 2]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"down": {"uv": [4, 0, 0, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [10, -0.25, 0],
+			"to": [14, -0.25, 4],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [12, -0.25, 2]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"up": {"uv": [4, 0, 0, 4], "texture": "#1"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [9, -0.25, 10],
+			"to": [13, -0.25, 14],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [11, -0.25, 12]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"down": {"uv": [4, 0, 0, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [9, -0.25, 10],
+			"to": [13, -0.25, 14],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [11, -0.25, 12]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"down": {"uv": [4, 0, 0, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, -0.25, 10],
+			"to": [6, -0.25, 14],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [4, -0.25, 12]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"up": {"uv": [4, 0, 0, 4], "texture": "#1"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, -0.25, 10],
+			"to": [6, -0.25, 14],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [4, -0.25, 12]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"down": {"uv": [4, 0, 0, 4], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "flower1",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [1, 2]
+		},
+		{
+			"name": "flower2",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [3, 4]
+		},
+		{
+			"name": "flower3",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [5, 6]
+		},
+		{
+			"name": "flower4",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [7, 8]
+		},
+		{
+			"name": "flower5",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [9, 10]
+		}
+	]
+}

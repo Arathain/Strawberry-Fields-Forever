@@ -1,0 +1,73 @@
+{
+  "variants": {
+    "apples=0": {
+      "model": "minecraft:block/oak_leaves"
+    },
+    "apples=1": {
+      "model": "strawberry_fields:block/golden_apple_leaves_flowers"
+    },
+    "apples=2": [
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_young_fruit",
+        "weight": 1
+      },
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_young_fruit",
+        "y": 90,
+        "weight": 1
+      },
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_young_fruit",
+        "y": 180,
+        "weight": 1
+      },
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_young_fruit",
+        "y": 270,
+        "weight": 1
+      }
+    ],
+    "apples=3": [
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_unripe_fruit",
+        "weight": 1
+      },
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_unripe_fruit",
+        "y": 90,
+        "weight": 1
+      },
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_unripe_fruit",
+        "y": 180,
+        "weight": 1
+      },
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_unripe_fruit",
+        "y": 270,
+        "weight": 1
+      }
+    ],
+    "apples=4": [
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_ripe_fruit",
+        "weight": 1
+      },
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_ripe_fruit",
+        "y": 90,
+        "weight": 1
+      },
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_ripe_fruit",
+        "y": 180,
+        "weight": 1
+      },
+      {
+        "model": "strawberry_fields:block/golden_apple_leaves_ripe_fruit",
+        "y": 270,
+        "weight": 1
+      }
+    ]
+  }
+}
